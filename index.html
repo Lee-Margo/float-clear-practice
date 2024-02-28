@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+        }
+        #box-all{
+            width: calc(100vw - 40px);
+            height: calc(100vh - 40px);
+            padding:20px;
+            background-color: white;
+        }
+        #box-1{
+            width: 100%;
+            height: calc(100%/3);
+            background-color: white;
+        }
+        #box-2{
+            width: 100%;
+            height: calc(100%/3);
+            background-color: white;
+        }
+        #box-3{
+            width: 100%;
+            height: calc(100%/3);
+            background-color: white;
+        }
+        #box-1-r{
+            width: 35%;
+            height: 100%;
+            float: left;
+            background-color: red;
+        }
+        #box-1-l{
+            width: 35%;
+            height: 100%;
+            float: right;
+            background-color: blueviolet;
+        }
+        #box-2-mid{
+            width: 35%;
+            height: 100%;
+            background-color: aqua;
+            margin: auto;
+        }
+        #box-3-r{
+            width: 35%;
+            height: 100%;
+            float: left;
+            background-color: red;
+        }
+        #box-3-l{
+            width: 35%;
+            height: 100%;
+            float: right;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div id="box-all">
+        <div id="box-1">
+            <div id="box-1-r"></div>
+            <div id="box-1-l"></div> 
+        </div>
+        <div id="box-2">
+            <div id="box-2-mid"></div> 
+        </div>
+        <div id="box-3">
+            <div id="box-3-r"></div>
+            <div id="box-3-l"></div> 
+        </div>
+    </div>   
+</body>
+</html>
